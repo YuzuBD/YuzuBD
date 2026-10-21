@@ -86,6 +86,6 @@
     <text x="56" y="86" font-size="54" font-weight="700" letter-spacing="-1.5" fill="#1C1917">Yuzu</text>
     <rect x="57" y="99" width="44" height="4" rx="2" fill="#EA580C"/>
     <text x="57" y="132" font-size="19" font-weight="500" fill="#EA580C">AIMP 插件开发 · C++ / Win32 / COM · Python</text>
-    <text x="57" y="158" font-size="14" fill="#78716C">Keeping a closed-source player extensible · 给一款闭源播放器写插件</text>
+    <text x="57" y="158" font-size="14" fill="#78716C">插件与桌面小工具 · Plugins and desktop tools</text>
   </g>
 </svg>

@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  写 C++/Win32/COM 插件和 Python 小工具，主要围绕一款闭源播放器 <b>AIMP</b>——它只能靠插件 SDK 扩展。
+  写 C++/Win32/COM 插件和 Python 小工具，顺手把常用的桌面软件补齐。
   <br>
-  <sub>C++/Win32/COM plugins and Python helpers, mostly around the closed-source <b>AIMP</b> player.</sub>
+  <sub>C++/Win32/COM plugins and Python helpers for the desktop.</sub>
 </p>
 
 ## 在维护的项目 · What I maintain
