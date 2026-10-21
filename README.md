@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-light.svg" alt="Yuzu — AIMP plugins, C++/Win32/COM, Python" width="100%">
+    <img src="assets/banner-light.svg" alt="Yuzu — AIMP 插件开发，C++/Win32/COM 与 Python" width="100%">
   </picture>
 </p>
 
@@ -16,33 +16,34 @@
 </p>
 
 <p align="center">
-  Windows desktop tooling — C++/Win32/COM plugin work and Python helpers, mostly around the
-  <b>AIMP</b> audio player, which is closed source and extensible only through its COM plugin SDK.
+  写 C++/Win32/COM 插件和 Python 小工具，主要围绕一款闭源播放器 <b>AIMP</b>——它只能靠插件 SDK 扩展。
+  <br>
+  <sub>C++/Win32/COM plugins and Python helpers, mostly around the closed-source <b>AIMP</b> player.</sub>
 </p>
 
-## What I maintain
+## 在维护的项目 · What I maintain
 
 **[AIMP-NCM](https://github.com/cirtuslab/AIMP-NCM)** · `C++`
-NetEase Cloud Music inside AIMP: cookie login with DPAPI-sealed credentials, eight quality tiers,
-one-click playlist sync, and a loopback proxy that resolves the real CDN URL at playback time and
-injects ID3v2 tags into the stream, so the player shows real titles, artists and cover art.
+在 AIMP 里直接播放网易云音乐：Cookie 登录（DPAPI 加密存储）、八档音质、歌单一键同步，本地代理在播放时注入 ID3v2 标签，封面标题歌手全都正常显示。
+<sub>NetEase Cloud Music inside AIMP — cookie login sealed with DPAPI, eight quality tiers, playlist sync, and a loopback proxy that injects ID3v2 tags into the stream.</sub>
 
 **[AIMPLyricsSaver](https://github.com/cirtuslab/AIMPLyricsSaver)** · `C++`
-Fetches lyrics from four providers while you play, merges bilingual and word-timed lines, and
-writes a `.lrc` next to the audio file — no overwriting what is already there.
+播放时自动从四个平台抓歌词，合并双语与逐字时间轴，把 `.lrc` 写到音频旁边，已有歌词不会被覆盖。
+<sub>Fetches lyrics from four providers on playback, merges bilingual and word-timed lines, writes a <code>.lrc</code> beside the audio.</sub>
 
 **[aimp_desktop_lyrics](https://github.com/cirtuslab/aimp_desktop_lyrics)** · `C++`
-Desktop lyric overlay for AIMP 5+, with per-monitor placement and click-through behaviour.
+AIMP 5+ 的桌面歌词悬浮窗，支持多显示器定位与点击穿透。
+<sub>Desktop lyric overlay for AIMP 5+, with per-monitor placement and click-through behaviour.</sub>
 
 **[aimp-obs-now-playing](https://github.com/cirtuslab/aimp-obs-now-playing)** · `Python`
-Now-playing bridge for OBS and phones: browser source with eight themes, a floating desktop window,
-and a LAN page that requires per-device approval before it can read or control playback.
+给 OBS 和手机用的正在播放桥接：八套主题的浏览器源、桌面悬浮窗，以及需要逐设备审批才能读取或控制播放的局域网页面。
+<sub>Now-playing bridge for OBS and phones — browser source with eight themes, floating window, and a LAN page that requires per-device approval.</sub>
 
 **[SongMetaFixer](https://github.com/cirtuslab/SongMetaFixer)** · `Python`
-Repairs audio metadata by looking the track up on NetEase / iTunes / MusicBrainz and writing the
-result back to the file.
+按歌名歌手去网易云 / iTunes / MusicBrainz 查完整元信息，再写回音频文件。
+<sub>Repairs audio metadata by looking the track up on NetEase / iTunes / MusicBrainz and writing the result back.</sub>
 
-## Toolchain
+## 技术与工具链 · Toolchain
 
 <p align="center">
   <picture>
@@ -52,26 +53,28 @@ result back to the file.
   </picture>
 </p>
 
-`C++17` · `Win32 / COM` · `MSVC + CMake` · `Python 3.10+` · `GitHub Actions (Windows, x64 + x86)`
+<p align="center">
+  <code>C++17</code> · <code>Win32 / COM</code> · <code>MSVC + CMake</code> · <code>Python 3.10+</code> · <code>GitHub Actions（Windows，x64 + x86）</code>
+</p>
 
-## By the numbers
+## 数据 · By the numbers
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=YuzuBD&show_icons=true&hide_border=true&include_all_commits=true&hide=stars,issues&hide_rank=true&bg_color=00000000&card_width=420&title_color=F97316&icon_color=F97316&text_color=F5F5F4">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=YuzuBD&show_icons=true&hide_border=true&include_all_commits=true&hide=stars,issues&hide_rank=true&bg_color=00000000&card_width=420&title_color=EA580C&icon_color=EA580C&text_color=1C1917">
-    <img src="https://github-readme-stats.vercel.app/api?username=YuzuBD&show_icons=true&hide_border=true&include_all_commits=true&hide=stars,issues&hide_rank=true&bg_color=00000000&card_width=420&title_color=EA580C&icon_color=EA580C&text_color=1C1917" alt="GitHub stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=YuzuBD&show_icons=true&hide_border=true&include_all_commits=true&hide=stars,issues&hide_rank=true&bg_color=00000000&card_width=420&title_color=EA580C&icon_color=EA580C&text_color=1C1917" alt="GitHub 统计 / GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=YuzuBD&hide_border=true&background=00000000&card_width=420&ring=F97316&fire=F97316&currStreakNum=F5F5F4&sideNums=F5F5F4&currStreakLabel=F97316&sideLabels=78716C&dates=78716C">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=YuzuBD&hide_border=true&background=00000000&card_width=420&ring=EA580C&fire=EA580C&currStreakNum=1C1917&sideNums=1C1917&currStreakLabel=EA580C&sideLabels=78716C&dates=78716C">
-    <img src="https://streak-stats.demolab.com?user=YuzuBD&hide_border=true&background=00000000&card_width=420&ring=EA580C&fire=EA580C&currStreakNum=1C1917&sideNums=1C1917&currStreakLabel=EA580C&sideLabels=78716C&dates=78716C" alt="Contribution streak">
+    <img src="https://streak-stats.demolab.com?user=YuzuBD&hide_border=true&background=00000000&card_width=420&ring=EA580C&fire=EA580C&currStreakNum=1C1917&sideNums=1C1917&currStreakLabel=EA580C&sideLabels=78716C&dates=78716C" alt="贡献连续天数 / contribution streak">
   </picture>
 </p>
 
-## Notes
+## 说明 · Notes
 
-Everything I publish is MIT licensed. The C++ plugins build for both x64 and x86 on hosted Windows
-runners on every push and pull request; the parts that need a real player are tested by hand.
+全部以 MIT 许可发布。C++ 插件在每次 push 和 pull request 时都会在 Windows runner 上构建 x64 与 x86；需要真实播放器才能验证的部分，由我手动测试。
+<sub>Everything is MIT licensed. The C++ plugins build for both x64 and x86 on hosted Windows runners; the parts that need a real player are tested by hand.</sub>
 
-All plugin work lives in [@cirtuslab](https://github.com/cirtuslab).
+插件本体都在 [@cirtuslab](https://github.com/cirtuslab) · All plugin work lives in [@cirtuslab](https://github.com/cirtuslab).

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Yuzu — AIMP plugin work: C++/Win32/COM and Python">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Yuzu — AIMP 插件开发 / plugin work, C++ Win32 COM Python">
   <title>Yuzu — AIMP plugin work</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -82,10 +82,10 @@
   <rect x="944.4" y="203.4" width="4" height="20.6" rx="2" fill="url(#barLight)" opacity="0.43"/>
   <rect x="960.0" y="213.2" width="4" height="10.8" rx="2" fill="url(#barLight)" opacity="0.32"/>
   <rect x="975.6" y="210.1" width="4" height="13.9" rx="2" fill="url(#barLight)" opacity="0.35"/>
-  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <g font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Noto Sans CJK SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
     <text x="56" y="86" font-size="54" font-weight="700" letter-spacing="-1.5" fill="#1C1917">Yuzu</text>
     <rect x="57" y="99" width="44" height="4" rx="2" fill="#EA580C"/>
-    <text x="57" y="132" font-size="19" fill="#78716C">AIMP plugins · C++ / Win32 / COM · Python</text>
-    <text x="57" y="158" font-size="15" fill="#78716C" opacity="0.75">github.com/cirtuslab</text>
+    <text x="57" y="132" font-size="19" font-weight="500" fill="#EA580C">AIMP 插件开发 · C++ / Win32 / COM · Python</text>
+    <text x="57" y="158" font-size="14" fill="#78716C">Keeping a closed-source player extensible · 给一款闭源播放器写插件</text>
   </g>
 </svg>
