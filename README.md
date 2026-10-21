@@ -43,6 +43,16 @@ AIMP 5+ 的桌面歌词悬浮窗，支持多显示器定位与点击穿透。
 按歌名歌手去网易云 / iTunes / MusicBrainz 查完整元信息，再写回音频文件。
 <sub>Repairs audio metadata by looking the track up on NetEase / iTunes / MusicBrainz and writing the result back.</sub>
 
+## 自己的项目 · Own projects
+
+**[djdeck](https://github.com/YuzuBD/djdeck)** · `C++` · Win32 / Direct3D 11 / Dear ImGui
+Windows 双音轨 DJ 播放器：播放指针固定在中央的滚动波形、两条独立队列、Mixer 浮窗里做 3 段 EQ / 交叉推子 / 自动混音，miniaudio 走 WASAPI 低频延迟共享模式，还带一整套 `--selftest` 端到端用例。
+<sub>Two-deck DJ player for Windows — a fixed-centre scrolling waveform, per-deck queues, a mixer with EQ and crossfader, WASAPI low-latency output, and a suite of end-to-end self-tests.</sub>
+
+**[osu-live](https://github.com/YuzuBD/osu-live)** · `HTML` / `JavaScript`
+把本机 osu! 客户端变成旁边的第二块屏：进程内存直接读出实时 pp、判定偏差和连击，用 HTTP + SSE 推到手机横屏看板。
+<sub>Reads the local osu! stable client out of process memory and mirrors live pp, hit-error and combo onto a phone over HTTP + SSE.</sub>
+
 ## 技术与工具链 · Toolchain
 
 <p align="center">
